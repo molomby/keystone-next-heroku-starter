@@ -62,11 +62,11 @@ brew tap heroku/brew && brew install heroku
 heroku auth:login
 ```
 
-Run these next steps from your codebase root, substituting `my-new-keystone-next-app` for a unique name key for your app:
+Run these next steps from your codebase root, substituting `molomby-keystone-next-starter` for a unique name key for your app:
 
 ```sh
 # Create the new app and configure a free postgres addon
-heroku create my-new-keystone-next-app --addons=heroku-postgresql:hobby-dev
+heroku create molomby-keystone-next-starter --addons=heroku-postgresql:hobby-dev
 
 # Adding a SESSION_SECRET env var will allow sessions to persist between dyno restarts
 heroku config:set SESSION_SECRET=$(head -c30 /dev/urandom | base64 | tr -dc 'A-Za-z0-9' | head -c30)
