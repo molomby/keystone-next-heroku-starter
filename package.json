@@ -1,9 +1,9 @@
 {
-  "name": "keystone-next-pgsql-heroku-eg",
+  "name": "keystone-next-heroku-starter",
   "version": "1.0.0",
-  "description": "Keystone Next example project on Postgres with a \"Deploy to Heroku\" button",
+  "description": "A Keystone Next example/starter project for Heroku deployments",
   "main": "index.js",
-  "repository": "git@github.com:molomby/keystone-next-pgsql-heroku-eg.git",
+  "repository": "git@github.com:molomby/keystone-next-heroku-starter.git",
   "author": "John Molomby <john@thinkmill.com.au>",
   "license": "MIT",
   "private": false,

@@ -1,9 +1,9 @@
 {
   "name": "Keystone Next Postgres Example",
-  "description": "A barebones Keystone Next example project on Postgres",
-  "repository": "https://github.com/molomby/keystone-next-pgsql-heroku-eg",
+  "description": "A Keystone Next example/starter project for Heroku deployments",
+  "repository": "https://github.com/molomby/keystone-next-heroku-starter",
   "website": "https://next.keystonejs.com/",
-  "logo": "https://raw.githubusercontent.com/molomby/keystone-next-pgsql-heroku-eg/main/assets/keystone-next-logo.png",
+  "logo": "https://raw.githubusercontent.com/molomby/keystone-next-heroku-starter/main/assets/keystone-next-logo.png",
   "keywords": ["keystone next", "keystonejs", "node", "graphql", "cms", "pgsql"],
   "success_url": "/init",
   "env": {

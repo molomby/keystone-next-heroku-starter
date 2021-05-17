@@ -1,15 +1,13 @@
-# Keystone Next: Postgres Example for Heroku
+# Keystone Next on Heroku
 
-Keystone Next example project on Postgres.
-You can deploy it to Heroku (for free!) using the button below, then navigate to the app to create an initial user and open the Keystone admin UI.
+A Keystone Next example/starter project for Heroku deployments.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/molomby/keystone-next-pgsql-heroku-eg)
-
-You can also fork this repo to [run it locally](#local-dev) or use it as a basic [starter project](#starter-project).
+This repo can be [deployed to Heroku](https://heroku.com/deploy?template=https://github.com/molomby/keystone-next-heroku-starter) directly,
+fork it to [run it locally](#local-dev) or use it as a basic [starter project](#starter-project).
 
 ## App Features
 
-App code is a mix of the Keystone Next
+The app Keystone schema is a mix of the Keystone Next
 [todo](https://github.com/keystonejs/keystone/tree/master/examples/todo) and
 [auth](https://github.com/keystonejs/keystone/tree/master/examples/auth) example projects.
 It demos a number of Keystone features, including:
@@ -34,8 +32,8 @@ On MacOS you'd perform the following steps:
 brew install postgresql
 
 # Get the repo
-git clone https://github.com/molomby/keystone-next-pgsql-heroku-eg
-cd keystone-next-pgsql-heroku-eg
+git clone https://github.com/molomby/keystone-next-heroku-starter
+cd keystone-next-heroku-starter
 
 # Install node packages
 yarn
@@ -48,7 +46,7 @@ Then point your browser to [localhost:3000](http://localhost:3000).
 
 ## Starter Project
 
-If you want to use this codebase as a starting point for your own app, begin by [forking it](https://github.com/molomby/keystone-next-pgsql-heroku-eg/fork) into your own account.
+If you want to use this codebase as a starting point for your own app, begin by [forking it](https://github.com/molomby/keystone-next-heroku-starter/fork) into your own account.
 Then, clone that repo to your dev machine using the [local dev](#local-dev) steps above.
 
 ### Deployment
