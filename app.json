@@ -1,0 +1,27 @@
+{
+  "name": "Keystone Next Postgres Example",
+  "description": "A barebones Keystone Next example project on Postgres",
+  "repository": "https://github.com/molomby/keystone-next-pgsql-heroku-eg",
+  "website": "https://next.keystonejs.com/",
+  "logo": "https://raw.githubusercontent.com/molomby/keystone-next-pgsql-heroku-eg/main/assets/keystone-next-logo.png",
+  "keywords": ["keystone next", "keystonejs", "node", "graphql", "cms", "pgsql"],
+  "success_url": "/init",
+  "env": {
+    "SESSION_SECRET": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev",
+      "options": { "version": "13" }
+    }
+  ]
+}

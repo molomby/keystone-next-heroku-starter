@@ -1,0 +1,36 @@
+{
+  "name": "keystone-next-pgsql-heroku-eg",
+  "version": "1.0.0",
+  "description": "Keystone Next example project on Postgres with a \"Deploy to Heroku\" button",
+  "main": "index.js",
+  "repository": "git@github.com:molomby/keystone-next-pgsql-heroku-eg.git",
+  "author": "John Molomby <john@thinkmill.com.au>",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": "^v14.17.0"
+  },
+  "scripts": {
+    "dev": "keystone-next dev",
+    "start": "keystone-next prisma migrate deploy && keystone-next start",
+    "build": "keystone-next build",
+    "format": "prettier --write \"**/*.{js,json,ts,md}\""
+  },
+  "dependencies": {
+    "@keystone-next/admin-ui": "^14.1.2",
+    "@keystone-next/auth": "^23.0.1",
+    "@keystone-next/fields": "^8.2.0",
+    "@keystone-next/keystone": "^17.1.1",
+    "dotenv": "^9.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.0",
+    "typescript": "^4.2.4"
+  },
+  "prettier": {
+    "proseWrap": "preserve",
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "printWidth": 100
+  }
+}
