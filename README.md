@@ -42,6 +42,7 @@ yarn
 # A DB will be created automatically and migrated to the latest schema
 yarn dev
 ```
+
 Then point your browser to [localhost:3000](http://localhost:3000).
 
 ## Starter Project
