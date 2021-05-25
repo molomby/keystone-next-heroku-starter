@@ -2,8 +2,10 @@
 
 A Keystone Next example/starter project for Heroku deployments.
 
-This repo can be [deployed to Heroku](https://heroku.com/deploy?template=https://github.com/molomby/keystone-next-heroku-starter) directly,
+This repo can be deployed to Heroku with the button below,
 fork it to [run it locally](#local-dev) or use it as a basic [starter project](#starter-project).
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/molomby/keystone-next-heroku-starter)
 
 ## App Features
 
